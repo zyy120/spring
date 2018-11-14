@@ -28,7 +28,7 @@ rm -f $TOMCAT_PATH/webapps/ROOT.war
 rm -f $TOMCAT_PATH/webapps/spring.war
  
 # 拷贝文件
-cp $PROJ_PATH/target/spring.war $TOMCAT_PATH/webapps/
+cp $PROJ_PATH/spring/target/spring.war $TOMCAT_PATH/webapps/
  
 # 进入tomcat/webapps目录
 cd $TOMCAT_PATH/webapps/
